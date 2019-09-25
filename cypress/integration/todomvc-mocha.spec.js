@@ -29,6 +29,6 @@ describe('Test Case: End-To-End ToDo App', () => {
     
     it('I should mark as completed a ToDo list', () => {
         cy.contains('Clear').click()
-        cy.get('.todo-list li').should('have.length', 3)
+        cy.get('.todo-list li').should('have.length', 2)
     });    
 });
