@@ -1,0 +1,16 @@
+{
+  "name": "introductioncypress",
+  "version": "1.0.0",
+  "description": "Introduction to Cypress from Test Automation University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "test": "cypress run spec"
+  },
+  "author": "Douglas Urrea Ocampo",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.4.1"
+  }
+}
