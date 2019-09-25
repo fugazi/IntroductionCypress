@@ -11,7 +11,7 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-insta
 
 2. Escribir en la terminal para abrir cypress
 ./node_modules/.bin/cypress open
-npx cypress open
+o tambien se puede usar el comando: npx cypress open
 
 3. Para instalar Cucumber con Cypress
 npm  install --save-dev cypress-cucumber-preprocessor
@@ -19,9 +19,9 @@ npm  install --save-dev cypress-cucumber-preprocessor
 5. Ahora ya podemos correr Cypress solamente ejecutando en la terminal: npm run cypress:open
 
 6. Si queremos abrir Cypress en un nuevo proyecto. Debo hacer los siguientes comandos
-npm init
-npm i cypress
-npx cypress open
+> npm init
+> npm i cypress
+> npx cypress open
 Ingresar al package.json y agregar en "scripts" el comando: "cypress:open": "cypress open"
 Ahora ya podemos correr Cypress solamente ejecutando en la terminal: npm run cypress:open
 Para correr Cypress para grabar videos y screenshots agregamos en el package.json la linea: "test": "cypress run --spec \"**/*.feature\""
