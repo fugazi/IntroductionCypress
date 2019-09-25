@@ -10,15 +10,15 @@ Prerequisitos:
 https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-install
 
 2. Escribir en la terminal para abrir cypress
-./node_modules/.bin/cypress open
-o tambien se puede usar el comando: npx cypress open
+./node_modules/.bin/cypress open <Enter>
+o tambien se puede usar el comando: npx cypress open <Enter>
 
 3. Para instalar Cucumber con Cypress
 npm  install --save-dev cypress-cucumber-preprocessor
 4. Ingresar al package.json y agregar: "cypress:open": "cypress open"
 5. Ahora ya podemos correr Cypress solamente ejecutando en la terminal: npm run cypress:open
 
-6. Si queremos abrir Cypress en un nuevo proyecto. Debo hacer los siguientes comandos
+6. Si queremos abrir Cypress en un nuevo proyecto. Debo hacer los siguientes comandos <Enter>
 npm init
 npm i cypress
 npx cypress open
